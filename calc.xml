@@ -1,7 +1,5 @@
 <?xml version="1.0"?>
 <?xml-stylesheet?>
 <TEST>
------BEGIN CERTIFICATE-----
-<===CERTUTIL PAYLOAD HERE===>
------END CERTIFICATE-----
+<=== REPLACE WITH CERTUTIL ENCODED PAYLOAD ===>
 </TEST>
