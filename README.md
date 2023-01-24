@@ -1,4 +1,4 @@
-# Use-msxsl-to-download-file
+# Use MSXSL to download file
 
 ## Create payload and insert into the XSL file:
 ```
